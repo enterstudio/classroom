@@ -11,7 +11,6 @@
 // about supported directives.
 //
 //= require jquery/dist/jquery
-//= require jquery.turbolinks
 //= require jquery-ujs/src/rails
 //
 //= require turbolinks
@@ -37,5 +36,3 @@
 //= require transliteration/lib/browser/transliteration
 //
 //= require_tree .
-
-Turbolinks.enableProgressBar();

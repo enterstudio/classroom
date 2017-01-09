@@ -7,11 +7,11 @@
 
     <title>GitHub Classroom</title>
 
-    <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => true %>
-    <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
     <%= csrf_meta_tags %>
-
     <%= render 'shared/open_graph' %>
+
+    <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
   <body class="site stafftools <%= controller_name %> <%= action_name %>">
     <div class="loading-indicator" style="display: none;"></div>

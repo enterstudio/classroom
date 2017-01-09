@@ -20,7 +20,7 @@ gem 'jquery-turbolinks'
 
 gem 'kaminari'
 
-gem 'local_time'
+gem 'local_time', git: 'https://github.com/basecamp/local_time', branch: '2-0'
 
 gem 'octicons_helper', '~> 2.1'
 gem 'octokit', git: 'https://github.com/octokit/octokit.rb.git', ref: '7c2d36f52ffea5b4f52e25bfa27d7b6c8e514975'
@@ -35,8 +35,8 @@ gem 'peek-performance_bar'
 gem 'peek-pg', git: 'https://github.com/mkcode/peek-pg.git', ref: '9bbe212ed1b6b4a4ad56ded1ef4cf9179cdac0cd'
 gem 'peek-sidekiq', git: 'https://github.com/Soliah/peek-sidekiq.git', ref: '261c857578ae6dc189506a35194785a4db51e54c'
 gem 'pg'
-gem 'pry-rails'
 gem 'pry-byebug'
+gem 'pry-rails'
 gem 'puma', '~> 3.0'
 
 gem 'rack-canonical-host'
@@ -45,11 +45,11 @@ gem 'rails-i18n', '~> 5.0', '>= 5.0.1'
 gem 'redis-namespace'
 gem 'ruby-progressbar', '~> 1.8', '>= 1.8.1'
 
-gem 'sprockets'
 gem 'sass-rails', '~> 5.0', '>= 5.0.6'
-gem 'sidekiq', '~> 4.2', '>= 4.2.7'
+gem 'sidekiq',    '~> 4.2', '>= 4.2.7'
+gem 'sprockets'
 
-gem 'turbolinks', '~> 2.5.3'
+gem 'turbolinks', '~> 5.0', '>= 5.0.1'
 
 gem 'uglifier', '>= 1.3.0'
 
@@ -63,13 +63,13 @@ group :development, :test do
   gem 'bullet'
   gem 'dotenv-rails'
   gem 'guard-rspec', require: false
-  gem 'rspec-rails'
   gem 'rails-controller-testing'
+  gem 'rspec-rails'
   gem 'rubocop',   require: false
   gem 'scss_lint', require: false
   gem 'spring'
-  gem 'timecop', require: false
   gem 'terminal-notifier-guard'
+  gem 'timecop', require: false
 end
 
 group :production do
