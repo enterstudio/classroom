@@ -18,7 +18,7 @@ gem 'geo_pattern'
 gem 'jbuilder'
 gem 'jquery-turbolinks'
 
-gem 'kaminari'
+gem 'kaminari', '>= 1.2.1'
 
 gem 'local_time'
 
