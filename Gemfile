@@ -37,7 +37,7 @@ gem 'peek-sidekiq', git: 'https://github.com/Soliah/peek-sidekiq.git', ref: '261
 gem 'pg'
 gem 'pry-rails'
 gem 'pry-byebug'
-gem 'puma', '~> 3.0'
+gem 'puma', '~> 4.3', '>= 4.3.8'
 
 gem 'rack-canonical-host'
 gem 'rack-timeout', require: false
@@ -76,7 +76,7 @@ group :production do
   gem 'dalli'
   gem 'newrelic_rpm'
   gem 'pinglish'
-  gem 'puma_worker_killer'
+  gem 'puma_worker_killer', '>= 0.1.1'
   gem 'rack-tracker'
   gem 'rails_12factor'
 end
