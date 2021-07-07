@@ -39,7 +39,7 @@ gem 'pry-rails'
 gem 'pry-byebug'
 gem 'puma', '~> 3.0'
 
-gem 'rack-canonical-host'
+gem 'rack-canonical-host', '>= 0.2.2'
 gem 'rack-timeout', require: false
 gem 'rails-i18n', '~> 5.0', '>= 5.0.1'
 gem 'redis-namespace'
@@ -87,5 +87,5 @@ group :test do
   gem 'faker'
   gem 'simplecov', require: false
   gem 'vcr'
-  gem 'webmock'
+  gem 'webmock', '>= 2.3.1'
 end
