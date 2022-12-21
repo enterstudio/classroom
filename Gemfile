@@ -22,7 +22,7 @@ gem 'kaminari'
 
 gem 'local_time'
 
-gem 'octicons_helper', '~> 2.1'
+gem 'octicons_helper', '~> 2.1', '>= 2.1.0'
 gem 'octokit', git: 'https://github.com/octokit/octokit.rb.git', ref: '7c2d36f52ffea5b4f52e25bfa27d7b6c8e514975'
 gem 'omniauth'
 gem 'omniauth-github'
@@ -45,8 +45,8 @@ gem 'rails-i18n', '~> 5.0', '>= 5.0.1'
 gem 'redis-namespace'
 gem 'ruby-progressbar', '~> 1.8', '>= 1.8.1'
 
-gem 'sprockets'
-gem 'sass-rails', '~> 5.0', '>= 5.0.6'
+gem 'sprockets', '>= 4.2.0'
+gem 'sass-rails', '~> 6.0', '>= 6.0.0'
 gem 'sidekiq', '~> 4.2', '>= 4.2.8'
 
 gem 'turbolinks', '~> 2.5.3'
