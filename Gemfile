@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 ruby '2.3.3'
-gem 'rails', '~> 5.0', '>= 5.0.1'
+gem 'rails', '~> 6.1', '>= 6.1.7.3'
 
 gem 'airbrake'
 gem 'autoprefixer-rails'
@@ -15,17 +15,17 @@ gem 'flipper-ui'
 
 gem 'geo_pattern'
 
-gem 'jbuilder'
+gem 'jbuilder', '>= 2.6.4'
 gem 'jquery-turbolinks'
 
-gem 'kaminari'
+gem 'kaminari', '>= 1.2.1'
 
 gem 'local_time'
 
-gem 'octicons_helper', '~> 2.1'
+gem 'octicons_helper', '~> 2.1', '>= 2.1.0'
 gem 'octokit', git: 'https://github.com/octokit/octokit.rb.git', ref: '7c2d36f52ffea5b4f52e25bfa27d7b6c8e514975'
-gem 'omniauth'
-gem 'omniauth-github'
+gem 'omniauth', '>= 2.1.0'
+gem 'omniauth-github', '>= 2.0.0'
 
 gem 'peek'
 gem 'peek-dalli'
@@ -37,19 +37,19 @@ gem 'peek-sidekiq', git: 'https://github.com/Soliah/peek-sidekiq.git', ref: '261
 gem 'pg'
 gem 'pry-rails'
 gem 'pry-byebug'
-gem 'puma', '~> 3.0'
+gem 'puma', '~> 4.3', '>= 4.3.12'
 
 gem 'rack-canonical-host'
 gem 'rack-timeout', require: false
-gem 'rails-i18n', '~> 5.0', '>= 5.0.1'
+gem 'rails-i18n', '~> 6.0', '>= 6.0.0'
 gem 'redis-namespace'
 gem 'ruby-progressbar', '~> 1.8', '>= 1.8.1'
 
-gem 'sprockets'
-gem 'sass-rails', '~> 5.0', '>= 5.0.6'
-gem 'sidekiq', '~> 4.2', '>= 4.2.8'
+gem 'sprockets', '>= 4.2.0'
+gem 'sass-rails', '~> 6.0', '>= 6.0.0'
+gem 'sidekiq', '~> 6.2', '>= 6.2.1'
 
-gem 'turbolinks', '~> 2.5.3'
+gem 'turbolinks', '~> 5.0.0'
 
 gem 'uglifier', '>= 1.3.0'
 
@@ -61,11 +61,11 @@ end
 group :development, :test do
   gem 'awesome_print', require: 'ap'
   gem 'bullet'
-  gem 'dotenv-rails'
+  gem 'dotenv-rails', '>= 2.7.6'
   gem 'guard-rspec', require: false
   gem 'rspec-rails'
-  gem 'rails-controller-testing'
-  gem 'rubocop',   require: false
+  gem 'rails-controller-testing', '>= 1.0.3'
+  gem 'rubocop', '>= 0.49.0', require: false
   gem 'scss_lint', require: false
   gem 'spring'
   gem 'timecop', require: false
@@ -73,10 +73,10 @@ group :development, :test do
 end
 
 group :production do
-  gem 'dalli'
+  gem 'dalli', '>= 3.2.3'
   gem 'newrelic_rpm'
   gem 'pinglish'
-  gem 'puma_worker_killer'
+  gem 'puma_worker_killer', '>= 0.1.1'
   gem 'rack-tracker'
   gem 'rails_12factor'
 end
