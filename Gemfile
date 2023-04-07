@@ -47,7 +47,7 @@ gem 'ruby-progressbar', '~> 1.8', '>= 1.8.1'
 
 gem 'sprockets'
 gem 'sass-rails', '~> 5.0', '>= 5.0.6'
-gem 'sidekiq', '~> 4.2', '>= 4.2.8'
+gem 'sidekiq', '~> 7.0', '>= 7.0.8'
 
 gem 'turbolinks', '~> 2.5.3'
 
