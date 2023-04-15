@@ -39,7 +39,7 @@ gem 'pry-rails'
 gem 'pry-byebug'
 gem 'puma', '~> 3.0'
 
-gem 'rack-canonical-host'
+gem 'rack-canonical-host', '>= 1.2.0'
 gem 'rack-timeout', require: false
 gem 'rails-i18n', '~> 5.0', '>= 5.0.1'
 gem 'redis-namespace'
