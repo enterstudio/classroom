@@ -11,7 +11,7 @@ gem 'chewy', git: 'https://github.com/toptal/chewy.git', ref: '4ae2065e9204d39f8
 gem 'faraday-http-cache'
 gem 'flipper'
 gem 'flipper-redis'
-gem 'flipper-ui'
+gem 'flipper-ui', '>= 1.0.0'
 
 gem 'geo_pattern'
 
