@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 ruby '2.3.3'
-gem 'rails', '~> 5.0', '>= 5.0.1'
+gem 'rails', '~> 5.0', '>= 5.0.2'
 
 gem 'airbrake'
 gem 'autoprefixer-rails'
@@ -18,11 +18,11 @@ gem 'geo_pattern'
 gem 'jbuilder'
 gem 'jquery-turbolinks'
 
-gem 'kaminari'
+gem 'kaminari', '>= 1.0.0'
 
 gem 'local_time'
 
-gem 'octicons_helper', '~> 2.1'
+gem 'octicons_helper', '~> 3.0', '>= 3.0.1'
 gem 'octokit', git: 'https://github.com/octokit/octokit.rb.git', ref: '7c2d36f52ffea5b4f52e25bfa27d7b6c8e514975'
 gem 'omniauth'
 gem 'omniauth-github'
@@ -46,7 +46,7 @@ gem 'redis-namespace'
 gem 'ruby-progressbar', '~> 1.8', '>= 1.8.1'
 
 gem 'sprockets'
-gem 'sass-rails', '~> 5.0', '>= 5.0.6'
+gem 'sass-rails', '~> 5.0', '>= 5.0.7'
 gem 'sidekiq', '~> 4.2', '>= 4.2.8'
 
 gem 'turbolinks', '~> 2.5.3'
@@ -63,8 +63,8 @@ group :development, :test do
   gem 'bullet'
   gem 'dotenv-rails'
   gem 'guard-rspec', require: false
-  gem 'rspec-rails'
-  gem 'rails-controller-testing'
+  gem 'rspec-rails', '>= 3.6.0'
+  gem 'rails-controller-testing', '>= 1.0.3'
   gem 'rubocop',   require: false
   gem 'scss_lint', require: false
   gem 'spring'
