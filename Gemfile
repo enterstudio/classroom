@@ -27,11 +27,11 @@ gem 'octokit', git: 'https://github.com/octokit/octokit.rb.git', ref: '7c2d36f52
 gem 'omniauth'
 gem 'omniauth-github'
 
-gem 'peek'
-gem 'peek-dalli'
+gem 'peek', '>= 1.0.1'
+gem 'peek-dalli', '>= 1.2.0'
 gem 'peek-gc'
 gem 'peek-git'
-gem 'peek-performance_bar'
+gem 'peek-performance_bar', '>= 1.3.0'
 gem 'peek-pg', git: 'https://github.com/mkcode/peek-pg.git', ref: '9bbe212ed1b6b4a4ad56ded1ef4cf9179cdac0cd'
 gem 'peek-sidekiq', git: 'https://github.com/Soliah/peek-sidekiq.git', ref: '261c857578ae6dc189506a35194785a4db51e54c'
 gem 'pg'
@@ -55,16 +55,16 @@ gem 'uglifier', '>= 1.3.0'
 
 group :development do
   gem 'foreman'
-  gem 'web-console'
+  gem 'web-console', '>= 3.5.0'
 end
 
 group :development, :test do
   gem 'awesome_print', require: 'ap'
   gem 'bullet'
-  gem 'dotenv-rails'
+  gem 'dotenv-rails', '>= 2.7.6'
   gem 'guard-rspec', require: false
-  gem 'rspec-rails'
-  gem 'rails-controller-testing'
+  gem 'rspec-rails', '>= 3.6.0'
+  gem 'rails-controller-testing', '>= 1.0.3'
   gem 'rubocop',   require: false
   gem 'scss_lint', require: false
   gem 'spring'
@@ -83,7 +83,7 @@ end
 
 group :test do
   gem 'database_cleaner'
-  gem 'factory_girl_rails'
+  gem 'factory_girl_rails', '>= 4.9.0'
   gem 'faker'
   gem 'simplecov', require: false
   gem 'vcr'
