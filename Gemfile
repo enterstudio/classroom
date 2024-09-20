@@ -37,7 +37,7 @@ gem 'peek-sidekiq', git: 'https://github.com/Soliah/peek-sidekiq.git', ref: '261
 gem 'pg'
 gem 'pry-rails'
 gem 'pry-byebug'
-gem 'puma', '~> 3.0'
+gem 'puma', '~> 5.6', '>= 5.6.9'
 
 gem 'rack-canonical-host'
 gem 'rack-timeout', require: false
