@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 ruby '2.3.3'
-gem 'rails', '~> 5.0', '>= 5.0.1'
+gem 'rails', '~> 7.0', '>= 7.0.0'
 
 gem 'airbrake'
 gem 'autoprefixer-rails'
@@ -18,16 +18,16 @@ gem 'geo_pattern'
 gem 'jbuilder'
 gem 'jquery-turbolinks'
 
-gem 'kaminari'
+gem 'kaminari', '>= 1.0.0'
 
-gem 'local_time'
+gem 'local_time', '>= 2.0.0'
 
-gem 'octicons_helper', '~> 2.1'
+gem 'octicons_helper', '~> 13.0', '>= 13.0.0'
 gem 'octokit', git: 'https://github.com/octokit/octokit.rb.git', ref: '7c2d36f52ffea5b4f52e25bfa27d7b6c8e514975'
 gem 'omniauth'
 gem 'omniauth-github'
 
-gem 'peek'
+gem 'peek', '>= 1.0.1'
 gem 'peek-dalli'
 gem 'peek-gc'
 gem 'peek-git'
@@ -46,10 +46,10 @@ gem 'redis-namespace'
 gem 'ruby-progressbar', '~> 1.8', '>= 1.8.1'
 
 gem 'sprockets'
-gem 'sass-rails', '~> 5.0', '>= 5.0.6'
+gem 'sass-rails', '~> 6.0', '>= 6.0.0'
 gem 'sidekiq', '~> 4.2', '>= 4.2.8'
 
-gem 'turbolinks', '~> 2.5.3'
+gem 'turbolinks', '~> 5.0.0'
 
 gem 'uglifier', '>= 1.3.0'
 
