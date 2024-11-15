@@ -41,7 +41,7 @@ gem 'puma', '~> 3.0'
 
 gem 'rack-canonical-host'
 gem 'rack-timeout', require: false
-gem 'rails-i18n', '~> 5.0', '>= 5.0.1'
+gem 'rails-i18n', '~> 8.0', '>= 8.0.0'
 gem 'redis-namespace'
 gem 'ruby-progressbar', '~> 1.8', '>= 1.8.1'
 
