@@ -63,7 +63,7 @@ group :development, :test do
   gem 'bullet'
   gem 'dotenv-rails'
   gem 'guard-rspec', require: false
-  gem 'rspec-rails'
+  gem 'rspec-rails', '>= 8.0.0'
   gem 'rails-controller-testing'
   gem 'rubocop',   require: false
   gem 'scss_lint', require: false
