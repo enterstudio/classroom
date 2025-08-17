@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 ruby '2.3.3'
-gem 'rails', '~> 5.0', '>= 5.0.1'
+gem 'rails', '~> 7.1', '>= 7.1.5.2'
 
 gem 'airbrake'
 gem 'autoprefixer-rails'
@@ -22,7 +22,7 @@ gem 'kaminari'
 
 gem 'local_time'
 
-gem 'octicons_helper', '~> 2.1'
+gem 'octicons_helper', '~> 3.0', '>= 3.0.1'
 gem 'octokit', git: 'https://github.com/octokit/octokit.rb.git', ref: '7c2d36f52ffea5b4f52e25bfa27d7b6c8e514975'
 gem 'omniauth'
 gem 'omniauth-github'
