@@ -8,7 +8,7 @@ gem 'autoprefixer-rails'
 
 gem 'chewy', git: 'https://github.com/toptal/chewy.git', ref: '4ae2065e9204d39f8ab16df9e6b6b6b187220f87'
 
-gem 'faraday-http-cache'
+gem 'faraday-http-cache', '>= 2.2.0'
 gem 'flipper'
 gem 'flipper-redis'
 gem 'flipper-ui'
@@ -25,7 +25,7 @@ gem 'local_time'
 gem 'octicons_helper', '~> 2.1'
 gem 'octokit', git: 'https://github.com/octokit/octokit.rb.git', ref: '7c2d36f52ffea5b4f52e25bfa27d7b6c8e514975'
 gem 'omniauth'
-gem 'omniauth-github'
+gem 'omniauth-github', '>= 1.2.0'
 
 gem 'peek'
 gem 'peek-dalli'
